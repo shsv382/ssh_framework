@@ -1,0 +1,38 @@
+.container {
+	width: 70%;
+	min-width: 1170px;
+	margin: 0 auto;
+	@media screen and (max-width: 1279px){
+		width: 80%;
+		min-width: 970px;
+	}
+	@media screen and (max-width: 1023px){
+		width: 90%;
+		min-width: 710px;
+	}
+	@media screen and (max-width: 767px){
+		width: 97%;
+		max-width: 750px;
+		margin: auto;
+	}
+
+	.row {
+		width: 99%;
+		margin: 0 auto;
+		display: block;
+		@include grid;
+		@media screen and (max-width: 1279px){
+			@include grid(md);
+		}
+		@media screen and (max-width: 1023px){
+			@include grid(sm);
+		}
+		@media screen and (max-width: 767px){
+			@include grid(xs);
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+

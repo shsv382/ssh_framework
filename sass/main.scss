@@ -1,0 +1,19 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+
+@import "components/buttons";
+@import "components/cover";
+@import "pages/home";
+
+* {
+	box-sizing: border-box;
+}
+
+div {
+	min-height: 50px;
+}
