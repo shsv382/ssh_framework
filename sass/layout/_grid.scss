@@ -1,38 +1,35 @@
 .container {
-	width: 70%;
-	min-width: 1170px;
+	box-sizing: content-box;
 	margin: 0 auto;
-	@media screen and (max-width: 1279px){
-		width: 80%;
-		min-width: 970px;
-	}
-	@media screen and (max-width: 1023px){
-		width: 90%;
-		min-width: 710px;
-	}
-	@media screen and (max-width: 767px){
-		width: 97%;
-		max-width: 750px;
-		margin: auto;
+	width: 98%;
+	.row {
+		@media screen and (max-width: 768px) {
+			@include grid(xs, 768px);
+		}
 	}
 
+	@each $size, $value in $sizes {
+		@media screen and (min-width: $value) {
+			width: 90%;
+			max-width: $value - 200px;
+			min-width: 300px;
+			margin: 0 auto;
+		}
+	
+
 	.row {
-		width: 99%;
+		box-sizing: content-box;
+		width: 100%;
 		margin: 0 auto;
 		display: block;
-		@include grid;
-		@media screen and (max-width: 1279px){
-			@include grid(md);
-		}
-		@media screen and (max-width: 1023px){
-			@include grid(sm);
-		}
-		@media screen and (max-width: 767px){
-			@include grid(xs);
-		}
-		&:last-child {
-			margin-right: 0;
+		
+			@media screen and (min-width: 0.98*($value)) {
+				@include grid($size, $value);
+			}
 		}
 	}
 }
 
+	
+
+	

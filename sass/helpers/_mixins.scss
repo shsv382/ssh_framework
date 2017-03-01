@@ -1,21 +1,19 @@
-@mixin grid($size: lg) {
-	@for $n from 1 through 12 {
-			@if ($n==12) {
-				.col-#{$size}-#{$n} {
-					width: 100%;
-					margin: 0 auto;
-					border: 1px dotted rgb((50*$n)%255, (15*$n)%255, (30*$n)%255);
-				}
-			}
-			@else {
+
+	@mixin grid($size, $value) {
+		@for $n from 1 through 12 {
+
 				.col-#{$size}-#{$n} {
 					display: inline-block;
-					width: (100%/12)*$n;
-					/*margin-right: 30px;*/
+					width: ((100%/12)*$n);
 					border: 1px dotted rgb((50*$n)%255, (15*$n)%255, (30*$n)%255);
 					color: rgb((255-$n), (255-$n), (255-$n));
 					background-color: rgba((30*$n)%255, (15*$n)%255, (50*$n)%255, 0.7);
+					&:last-of-type {
+						width: ((100%/12)*$n);
+						margin-right: 0;
+						margin: 0 auto;
+					}
 				}
 			}
 		}
-}
+	
