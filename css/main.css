@@ -411,127 +411,150 @@ template {
   box-sizing: content-box;
   margin: 0 auto;
   width: 98%; }
-  @media screen and (max-width: 768px) {
-    .container .row .col-xs-1 {
-      display: inline-block;
+  .container .row .space-xs-1 {
+    margin-left: 7.83332%; }
+  .container .row .col-xs-1 {
+    display: inline-block;
+    width: 8.33333%;
+    color: #fefefe;
+    background-color: rgba(30, 15, 50, 0.7); }
+    .container .row .col-xs-1:last-of-type {
+      float: right;
       width: 8.33333%;
-      border: 1px dotted #320f1e;
-      color: #fefefe;
-      background-color: rgba(30, 15, 50, 0.7); }
-      .container .row .col-xs-1:last-of-type {
-        width: 8.33333%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-2 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-2 {
+    margin-left: 16.16666%; }
+  .container .row .col-xs-2 {
+    display: inline-block;
+    width: 16.66667%;
+    color: #fdfdfd;
+    background-color: rgba(60, 30, 100, 0.7); }
+    .container .row .col-xs-2:last-of-type {
+      float: right;
       width: 16.66667%;
-      border: 1px dotted #641e3c;
-      color: #fdfdfd;
-      background-color: rgba(60, 30, 100, 0.7); }
-      .container .row .col-xs-2:last-of-type {
-        width: 16.66667%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-3 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-3 {
+    margin-left: 24.49999%; }
+  .container .row .col-xs-3 {
+    display: inline-block;
+    width: 25%;
+    color: #fcfcfc;
+    background-color: rgba(90, 45, 150, 0.7); }
+    .container .row .col-xs-3:last-of-type {
+      float: right;
       width: 25%;
-      border: 1px dotted #962d5a;
-      color: #fcfcfc;
-      background-color: rgba(90, 45, 150, 0.7); }
-      .container .row .col-xs-3:last-of-type {
-        width: 25%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-4 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-4 {
+    margin-left: 32.83332%; }
+  .container .row .col-xs-4 {
+    display: inline-block;
+    width: 33.33333%;
+    color: #fbfbfb;
+    background-color: rgba(120, 60, 200, 0.7); }
+    .container .row .col-xs-4:last-of-type {
+      float: right;
       width: 33.33333%;
-      border: 1px dotted #c83c78;
-      color: #fbfbfb;
-      background-color: rgba(120, 60, 200, 0.7); }
-      .container .row .col-xs-4:last-of-type {
-        width: 33.33333%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-5 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-5 {
+    margin-left: 41.16666%; }
+  .container .row .col-xs-5 {
+    display: inline-block;
+    width: 41.66667%;
+    color: #fafafa;
+    background-color: rgba(150, 75, 250, 0.7); }
+    .container .row .col-xs-5:last-of-type {
+      float: right;
       width: 41.66667%;
-      border: 1px dotted #fa4b96;
-      color: #fafafa;
-      background-color: rgba(150, 75, 250, 0.7); }
-      .container .row .col-xs-5:last-of-type {
-        width: 41.66667%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-6 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-6 {
+    margin-left: 49.49999%; }
+  .container .row .col-xs-6 {
+    display: inline-block;
+    width: 50%;
+    color: #f9f9f9;
+    background-color: rgba(180, 90, 45, 0.7); }
+    .container .row .col-xs-6:last-of-type {
+      float: right;
       width: 50%;
-      border: 1px dotted #2d5ab4;
-      color: #f9f9f9;
-      background-color: rgba(180, 90, 45, 0.7); }
-      .container .row .col-xs-6:last-of-type {
-        width: 50%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-7 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-7 {
+    margin-left: 57.83332%; }
+  .container .row .col-xs-7 {
+    display: inline-block;
+    width: 58.33333%;
+    color: #f8f8f8;
+    background-color: rgba(210, 105, 95, 0.7); }
+    .container .row .col-xs-7:last-of-type {
+      float: right;
       width: 58.33333%;
-      border: 1px dotted #5f69d2;
-      color: #f8f8f8;
-      background-color: rgba(210, 105, 95, 0.7); }
-      .container .row .col-xs-7:last-of-type {
-        width: 58.33333%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-8 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-8 {
+    margin-left: 66.16666%; }
+  .container .row .col-xs-8 {
+    display: inline-block;
+    width: 66.66667%;
+    color: #f7f7f7;
+    background-color: rgba(240, 120, 145, 0.7); }
+    .container .row .col-xs-8:last-of-type {
+      float: right;
       width: 66.66667%;
-      border: 1px dotted #9178f0;
-      color: #f7f7f7;
-      background-color: rgba(240, 120, 145, 0.7); }
-      .container .row .col-xs-8:last-of-type {
-        width: 66.66667%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-9 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-9 {
+    margin-left: 74.49999%; }
+  .container .row .col-xs-9 {
+    display: inline-block;
+    width: 75%;
+    color: #f6f6f6;
+    background-color: rgba(15, 135, 195, 0.7); }
+    .container .row .col-xs-9:last-of-type {
+      float: right;
       width: 75%;
-      border: 1px dotted #c3870f;
-      color: #f6f6f6;
-      background-color: rgba(15, 135, 195, 0.7); }
-      .container .row .col-xs-9:last-of-type {
-        width: 75%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-10 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-10 {
+    margin-left: 82.83332%; }
+  .container .row .col-xs-10 {
+    display: inline-block;
+    width: 83.33333%;
+    color: whitesmoke;
+    background-color: rgba(45, 150, 245, 0.7); }
+    .container .row .col-xs-10:last-of-type {
+      float: right;
       width: 83.33333%;
-      border: 1px dotted #f5962d;
-      color: whitesmoke;
-      background-color: rgba(45, 150, 245, 0.7); }
-      .container .row .col-xs-10:last-of-type {
-        width: 83.33333%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-11 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-11 {
+    margin-left: 91.16666%; }
+  .container .row .col-xs-11 {
+    display: inline-block;
+    width: 91.66667%;
+    color: #f4f4f4;
+    background-color: rgba(75, 165, 40, 0.7); }
+    .container .row .col-xs-11:last-of-type {
+      float: right;
       width: 91.66667%;
-      border: 1px dotted #28a54b;
-      color: #f4f4f4;
-      background-color: rgba(75, 165, 40, 0.7); }
-      .container .row .col-xs-11:last-of-type {
-        width: 91.66667%;
-        margin-right: 0;
-        margin: 0 auto; }
-    .container .row .col-xs-12 {
-      display: inline-block;
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
+  .container .row .space-xs-12 {
+    margin-left: 99.49999%; }
+  .container .row .col-xs-12 {
+    display: inline-block;
+    width: 100%;
+    color: #f3f3f3;
+    background-color: rgba(105, 180, 90, 0.7); }
+    .container .row .col-xs-12:last-of-type {
+      float: right;
       width: 100%;
-      border: 1px dotted #5ab469;
-      color: #f3f3f3;
-      background-color: rgba(105, 180, 90, 0.7); }
-      .container .row .col-xs-12:last-of-type {
-        width: 100%;
-        margin-right: 0;
-        margin: 0 auto; } }
+      margin-right: 0;
+      /*margin: 0 auto;*/ }
   @media screen and (min-width: 768) {
     .container {
       width: 90%;
@@ -539,131 +562,156 @@ template {
       min-width: 300px;
       margin: 0 auto; } }
   .container .row {
-    box-sizing: content-box;
+    /*overflow-x: visible;*/
     width: 100%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    padding: 0, auto; }
     @media screen and (min-width: 752.64) {
+      .container .row .space-s-1 {
+        margin-left: 7.83332%; }
       .container .row .col-s-1 {
         display: inline-block;
         width: 8.33333%;
-        border: 1px dotted #320f1e;
         color: #fefefe;
         background-color: rgba(30, 15, 50, 0.7); }
         .container .row .col-s-1:last-of-type {
+          float: right;
           width: 8.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-2 {
+        margin-left: 16.16666%; }
       .container .row .col-s-2 {
         display: inline-block;
         width: 16.66667%;
-        border: 1px dotted #641e3c;
         color: #fdfdfd;
         background-color: rgba(60, 30, 100, 0.7); }
         .container .row .col-s-2:last-of-type {
+          float: right;
           width: 16.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-3 {
+        margin-left: 24.49999%; }
       .container .row .col-s-3 {
         display: inline-block;
         width: 25%;
-        border: 1px dotted #962d5a;
         color: #fcfcfc;
         background-color: rgba(90, 45, 150, 0.7); }
         .container .row .col-s-3:last-of-type {
+          float: right;
           width: 25%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-4 {
+        margin-left: 32.83332%; }
       .container .row .col-s-4 {
         display: inline-block;
         width: 33.33333%;
-        border: 1px dotted #c83c78;
         color: #fbfbfb;
         background-color: rgba(120, 60, 200, 0.7); }
         .container .row .col-s-4:last-of-type {
+          float: right;
           width: 33.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-5 {
+        margin-left: 41.16666%; }
       .container .row .col-s-5 {
         display: inline-block;
         width: 41.66667%;
-        border: 1px dotted #fa4b96;
         color: #fafafa;
         background-color: rgba(150, 75, 250, 0.7); }
         .container .row .col-s-5:last-of-type {
+          float: right;
           width: 41.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-6 {
+        margin-left: 49.49999%; }
       .container .row .col-s-6 {
         display: inline-block;
         width: 50%;
-        border: 1px dotted #2d5ab4;
         color: #f9f9f9;
         background-color: rgba(180, 90, 45, 0.7); }
         .container .row .col-s-6:last-of-type {
+          float: right;
           width: 50%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-7 {
+        margin-left: 57.83332%; }
       .container .row .col-s-7 {
         display: inline-block;
         width: 58.33333%;
-        border: 1px dotted #5f69d2;
         color: #f8f8f8;
         background-color: rgba(210, 105, 95, 0.7); }
         .container .row .col-s-7:last-of-type {
+          float: right;
           width: 58.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-8 {
+        margin-left: 66.16666%; }
       .container .row .col-s-8 {
         display: inline-block;
         width: 66.66667%;
-        border: 1px dotted #9178f0;
         color: #f7f7f7;
         background-color: rgba(240, 120, 145, 0.7); }
         .container .row .col-s-8:last-of-type {
+          float: right;
           width: 66.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-9 {
+        margin-left: 74.49999%; }
       .container .row .col-s-9 {
         display: inline-block;
         width: 75%;
-        border: 1px dotted #c3870f;
         color: #f6f6f6;
         background-color: rgba(15, 135, 195, 0.7); }
         .container .row .col-s-9:last-of-type {
+          float: right;
           width: 75%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-10 {
+        margin-left: 82.83332%; }
       .container .row .col-s-10 {
         display: inline-block;
         width: 83.33333%;
-        border: 1px dotted #f5962d;
         color: whitesmoke;
         background-color: rgba(45, 150, 245, 0.7); }
         .container .row .col-s-10:last-of-type {
+          float: right;
           width: 83.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-11 {
+        margin-left: 91.16666%; }
       .container .row .col-s-11 {
         display: inline-block;
         width: 91.66667%;
-        border: 1px dotted #28a54b;
         color: #f4f4f4;
         background-color: rgba(75, 165, 40, 0.7); }
         .container .row .col-s-11:last-of-type {
+          float: right;
           width: 91.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-s-12 {
+        margin-left: 99.49999%; }
       .container .row .col-s-12 {
         display: inline-block;
         width: 100%;
-        border: 1px dotted #5ab469;
         color: #f3f3f3;
         background-color: rgba(105, 180, 90, 0.7); }
         .container .row .col-s-12:last-of-type {
+          float: right;
           width: 100%;
           margin-right: 0;
-          margin: 0 auto; } }
+          /*margin: 0 auto;*/ } }
   @media screen and (min-width: 1024px) {
     .container {
       width: 90%;
@@ -671,131 +719,156 @@ template {
       min-width: 300px;
       margin: 0 auto; } }
   .container .row {
-    box-sizing: content-box;
+    /*overflow-x: visible;*/
     width: 100%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    padding: 0, auto; }
     @media screen and (min-width: 1003.52px) {
+      .container .row .space-m-1 {
+        margin-left: 7.83332%; }
       .container .row .col-m-1 {
         display: inline-block;
         width: 8.33333%;
-        border: 1px dotted #320f1e;
         color: #fefefe;
         background-color: rgba(30, 15, 50, 0.7); }
         .container .row .col-m-1:last-of-type {
+          float: right;
           width: 8.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-2 {
+        margin-left: 16.16666%; }
       .container .row .col-m-2 {
         display: inline-block;
         width: 16.66667%;
-        border: 1px dotted #641e3c;
         color: #fdfdfd;
         background-color: rgba(60, 30, 100, 0.7); }
         .container .row .col-m-2:last-of-type {
+          float: right;
           width: 16.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-3 {
+        margin-left: 24.49999%; }
       .container .row .col-m-3 {
         display: inline-block;
         width: 25%;
-        border: 1px dotted #962d5a;
         color: #fcfcfc;
         background-color: rgba(90, 45, 150, 0.7); }
         .container .row .col-m-3:last-of-type {
+          float: right;
           width: 25%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-4 {
+        margin-left: 32.83332%; }
       .container .row .col-m-4 {
         display: inline-block;
         width: 33.33333%;
-        border: 1px dotted #c83c78;
         color: #fbfbfb;
         background-color: rgba(120, 60, 200, 0.7); }
         .container .row .col-m-4:last-of-type {
+          float: right;
           width: 33.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-5 {
+        margin-left: 41.16666%; }
       .container .row .col-m-5 {
         display: inline-block;
         width: 41.66667%;
-        border: 1px dotted #fa4b96;
         color: #fafafa;
         background-color: rgba(150, 75, 250, 0.7); }
         .container .row .col-m-5:last-of-type {
+          float: right;
           width: 41.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-6 {
+        margin-left: 49.49999%; }
       .container .row .col-m-6 {
         display: inline-block;
         width: 50%;
-        border: 1px dotted #2d5ab4;
         color: #f9f9f9;
         background-color: rgba(180, 90, 45, 0.7); }
         .container .row .col-m-6:last-of-type {
+          float: right;
           width: 50%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-7 {
+        margin-left: 57.83332%; }
       .container .row .col-m-7 {
         display: inline-block;
         width: 58.33333%;
-        border: 1px dotted #5f69d2;
         color: #f8f8f8;
         background-color: rgba(210, 105, 95, 0.7); }
         .container .row .col-m-7:last-of-type {
+          float: right;
           width: 58.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-8 {
+        margin-left: 66.16666%; }
       .container .row .col-m-8 {
         display: inline-block;
         width: 66.66667%;
-        border: 1px dotted #9178f0;
         color: #f7f7f7;
         background-color: rgba(240, 120, 145, 0.7); }
         .container .row .col-m-8:last-of-type {
+          float: right;
           width: 66.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-9 {
+        margin-left: 74.49999%; }
       .container .row .col-m-9 {
         display: inline-block;
         width: 75%;
-        border: 1px dotted #c3870f;
         color: #f6f6f6;
         background-color: rgba(15, 135, 195, 0.7); }
         .container .row .col-m-9:last-of-type {
+          float: right;
           width: 75%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-10 {
+        margin-left: 82.83332%; }
       .container .row .col-m-10 {
         display: inline-block;
         width: 83.33333%;
-        border: 1px dotted #f5962d;
         color: whitesmoke;
         background-color: rgba(45, 150, 245, 0.7); }
         .container .row .col-m-10:last-of-type {
+          float: right;
           width: 83.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-11 {
+        margin-left: 91.16666%; }
       .container .row .col-m-11 {
         display: inline-block;
         width: 91.66667%;
-        border: 1px dotted #28a54b;
         color: #f4f4f4;
         background-color: rgba(75, 165, 40, 0.7); }
         .container .row .col-m-11:last-of-type {
+          float: right;
           width: 91.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-m-12 {
+        margin-left: 99.49999%; }
       .container .row .col-m-12 {
         display: inline-block;
         width: 100%;
-        border: 1px dotted #5ab469;
         color: #f3f3f3;
         background-color: rgba(105, 180, 90, 0.7); }
         .container .row .col-m-12:last-of-type {
+          float: right;
           width: 100%;
           margin-right: 0;
-          margin: 0 auto; } }
+          /*margin: 0 auto;*/ } }
   @media screen and (min-width: 1536px) {
     .container {
       width: 90%;
@@ -803,131 +876,156 @@ template {
       min-width: 300px;
       margin: 0 auto; } }
   .container .row {
-    box-sizing: content-box;
+    /*overflow-x: visible;*/
     width: 100%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    padding: 0, auto; }
     @media screen and (min-width: 1505.28px) {
+      .container .row .space-l-1 {
+        margin-left: 7.83332%; }
       .container .row .col-l-1 {
         display: inline-block;
         width: 8.33333%;
-        border: 1px dotted #320f1e;
         color: #fefefe;
         background-color: rgba(30, 15, 50, 0.7); }
         .container .row .col-l-1:last-of-type {
+          float: right;
           width: 8.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-2 {
+        margin-left: 16.16666%; }
       .container .row .col-l-2 {
         display: inline-block;
         width: 16.66667%;
-        border: 1px dotted #641e3c;
         color: #fdfdfd;
         background-color: rgba(60, 30, 100, 0.7); }
         .container .row .col-l-2:last-of-type {
+          float: right;
           width: 16.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-3 {
+        margin-left: 24.49999%; }
       .container .row .col-l-3 {
         display: inline-block;
         width: 25%;
-        border: 1px dotted #962d5a;
         color: #fcfcfc;
         background-color: rgba(90, 45, 150, 0.7); }
         .container .row .col-l-3:last-of-type {
+          float: right;
           width: 25%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-4 {
+        margin-left: 32.83332%; }
       .container .row .col-l-4 {
         display: inline-block;
         width: 33.33333%;
-        border: 1px dotted #c83c78;
         color: #fbfbfb;
         background-color: rgba(120, 60, 200, 0.7); }
         .container .row .col-l-4:last-of-type {
+          float: right;
           width: 33.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-5 {
+        margin-left: 41.16666%; }
       .container .row .col-l-5 {
         display: inline-block;
         width: 41.66667%;
-        border: 1px dotted #fa4b96;
         color: #fafafa;
         background-color: rgba(150, 75, 250, 0.7); }
         .container .row .col-l-5:last-of-type {
+          float: right;
           width: 41.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-6 {
+        margin-left: 49.49999%; }
       .container .row .col-l-6 {
         display: inline-block;
         width: 50%;
-        border: 1px dotted #2d5ab4;
         color: #f9f9f9;
         background-color: rgba(180, 90, 45, 0.7); }
         .container .row .col-l-6:last-of-type {
+          float: right;
           width: 50%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-7 {
+        margin-left: 57.83332%; }
       .container .row .col-l-7 {
         display: inline-block;
         width: 58.33333%;
-        border: 1px dotted #5f69d2;
         color: #f8f8f8;
         background-color: rgba(210, 105, 95, 0.7); }
         .container .row .col-l-7:last-of-type {
+          float: right;
           width: 58.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-8 {
+        margin-left: 66.16666%; }
       .container .row .col-l-8 {
         display: inline-block;
         width: 66.66667%;
-        border: 1px dotted #9178f0;
         color: #f7f7f7;
         background-color: rgba(240, 120, 145, 0.7); }
         .container .row .col-l-8:last-of-type {
+          float: right;
           width: 66.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-9 {
+        margin-left: 74.49999%; }
       .container .row .col-l-9 {
         display: inline-block;
         width: 75%;
-        border: 1px dotted #c3870f;
         color: #f6f6f6;
         background-color: rgba(15, 135, 195, 0.7); }
         .container .row .col-l-9:last-of-type {
+          float: right;
           width: 75%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-10 {
+        margin-left: 82.83332%; }
       .container .row .col-l-10 {
         display: inline-block;
         width: 83.33333%;
-        border: 1px dotted #f5962d;
         color: whitesmoke;
         background-color: rgba(45, 150, 245, 0.7); }
         .container .row .col-l-10:last-of-type {
+          float: right;
           width: 83.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-11 {
+        margin-left: 91.16666%; }
       .container .row .col-l-11 {
         display: inline-block;
         width: 91.66667%;
-        border: 1px dotted #28a54b;
         color: #f4f4f4;
         background-color: rgba(75, 165, 40, 0.7); }
         .container .row .col-l-11:last-of-type {
+          float: right;
           width: 91.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-l-12 {
+        margin-left: 99.49999%; }
       .container .row .col-l-12 {
         display: inline-block;
         width: 100%;
-        border: 1px dotted #5ab469;
         color: #f3f3f3;
         background-color: rgba(105, 180, 90, 0.7); }
         .container .row .col-l-12:last-of-type {
+          float: right;
           width: 100%;
           margin-right: 0;
-          margin: 0 auto; } }
+          /*margin: 0 auto;*/ } }
   @media screen and (min-width: 1920px) {
     .container {
       width: 90%;
@@ -935,131 +1033,156 @@ template {
       min-width: 300px;
       margin: 0 auto; } }
   .container .row {
-    box-sizing: content-box;
+    /*overflow-x: visible;*/
     width: 100%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    padding: 0, auto; }
     @media screen and (min-width: 1881.6px) {
+      .container .row .space-xl-1 {
+        margin-left: 7.83332%; }
       .container .row .col-xl-1 {
         display: inline-block;
         width: 8.33333%;
-        border: 1px dotted #320f1e;
         color: #fefefe;
         background-color: rgba(30, 15, 50, 0.7); }
         .container .row .col-xl-1:last-of-type {
+          float: right;
           width: 8.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-2 {
+        margin-left: 16.16666%; }
       .container .row .col-xl-2 {
         display: inline-block;
         width: 16.66667%;
-        border: 1px dotted #641e3c;
         color: #fdfdfd;
         background-color: rgba(60, 30, 100, 0.7); }
         .container .row .col-xl-2:last-of-type {
+          float: right;
           width: 16.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-3 {
+        margin-left: 24.49999%; }
       .container .row .col-xl-3 {
         display: inline-block;
         width: 25%;
-        border: 1px dotted #962d5a;
         color: #fcfcfc;
         background-color: rgba(90, 45, 150, 0.7); }
         .container .row .col-xl-3:last-of-type {
+          float: right;
           width: 25%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-4 {
+        margin-left: 32.83332%; }
       .container .row .col-xl-4 {
         display: inline-block;
         width: 33.33333%;
-        border: 1px dotted #c83c78;
         color: #fbfbfb;
         background-color: rgba(120, 60, 200, 0.7); }
         .container .row .col-xl-4:last-of-type {
+          float: right;
           width: 33.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-5 {
+        margin-left: 41.16666%; }
       .container .row .col-xl-5 {
         display: inline-block;
         width: 41.66667%;
-        border: 1px dotted #fa4b96;
         color: #fafafa;
         background-color: rgba(150, 75, 250, 0.7); }
         .container .row .col-xl-5:last-of-type {
+          float: right;
           width: 41.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-6 {
+        margin-left: 49.49999%; }
       .container .row .col-xl-6 {
         display: inline-block;
         width: 50%;
-        border: 1px dotted #2d5ab4;
         color: #f9f9f9;
         background-color: rgba(180, 90, 45, 0.7); }
         .container .row .col-xl-6:last-of-type {
+          float: right;
           width: 50%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-7 {
+        margin-left: 57.83332%; }
       .container .row .col-xl-7 {
         display: inline-block;
         width: 58.33333%;
-        border: 1px dotted #5f69d2;
         color: #f8f8f8;
         background-color: rgba(210, 105, 95, 0.7); }
         .container .row .col-xl-7:last-of-type {
+          float: right;
           width: 58.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-8 {
+        margin-left: 66.16666%; }
       .container .row .col-xl-8 {
         display: inline-block;
         width: 66.66667%;
-        border: 1px dotted #9178f0;
         color: #f7f7f7;
         background-color: rgba(240, 120, 145, 0.7); }
         .container .row .col-xl-8:last-of-type {
+          float: right;
           width: 66.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-9 {
+        margin-left: 74.49999%; }
       .container .row .col-xl-9 {
         display: inline-block;
         width: 75%;
-        border: 1px dotted #c3870f;
         color: #f6f6f6;
         background-color: rgba(15, 135, 195, 0.7); }
         .container .row .col-xl-9:last-of-type {
+          float: right;
           width: 75%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-10 {
+        margin-left: 82.83332%; }
       .container .row .col-xl-10 {
         display: inline-block;
         width: 83.33333%;
-        border: 1px dotted #f5962d;
         color: whitesmoke;
         background-color: rgba(45, 150, 245, 0.7); }
         .container .row .col-xl-10:last-of-type {
+          float: right;
           width: 83.33333%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-11 {
+        margin-left: 91.16666%; }
       .container .row .col-xl-11 {
         display: inline-block;
         width: 91.66667%;
-        border: 1px dotted #28a54b;
         color: #f4f4f4;
         background-color: rgba(75, 165, 40, 0.7); }
         .container .row .col-xl-11:last-of-type {
+          float: right;
           width: 91.66667%;
           margin-right: 0;
-          margin: 0 auto; }
+          /*margin: 0 auto;*/ }
+      .container .row .space-xl-12 {
+        margin-left: 99.49999%; }
       .container .row .col-xl-12 {
         display: inline-block;
         width: 100%;
-        border: 1px dotted #5ab469;
         color: #f3f3f3;
         background-color: rgba(105, 180, 90, 0.7); }
         .container .row .col-xl-12:last-of-type {
+          float: right;
           width: 100%;
           margin-right: 0;
-          margin: 0 auto; } }
+          /*margin: 0 auto;*/ } }
 
 div {
   min-height: 50px; }
