@@ -9,8 +9,7 @@
 				.col-#{$size}-#{$n} {
 					display: inline-block;
 					width: ((100%/12)*$n);
-					color: rgb((255-$n), (255-$n), (255-$n));
-					background-color: rgba((30*$n)%255, (15*$n)%255, (50*$n)%255, 0.7);
+					color: rgb(($n), ($n), ($n));
 					&:last-of-type {
 						float: right;
 						width: ((100%/12)*$n);
@@ -18,5 +17,40 @@
 						/*margin: 0 auto;*/
 					}
 				}			
+		}
+	}
+
+	@mixin bg-colors($colors) {
+		@each $color in $colors {
+			.bg-#{$color} {
+				background-color: $color;
 			}
 		}
+	}
+
+	@mixin complex-positioning($positions, $pos) {
+		@each $position in $positions {
+			@each $p in $pos {
+				.#{$position}-#{$p} {
+					position: $position;
+					#{$p}: 0;
+				}
+			}
+		}
+	}
+
+	@mixin positioning($positions) {
+		@each $position in $positions {
+				.#{$position} {
+					position: $position;
+			}
+		}
+	}
+
+	@mixin posing($pos) {
+		@each $p in $pos {
+			.#{$p} {
+				#{$p}: 0;
+			}
+		}
+	}
